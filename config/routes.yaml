@@ -1,0 +1,23 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+#login:
+#    path:       /login
+#    controller: App\Controller\AdvertController::login
+
+admin_crea:
+    path:       /admin_crea
+    controller: App\Controller\AdvertController::admin_crea
+
+admin_list:
+    path:       /admin_list
+    controller: App\Controller\AdvertController::admin_list
+
+client:
+    path:       /client
+    controller: App\Controller\AdvertController::client
+
+comptable:
+    path:       /comptable
+    controller: App\Controller\AdvertController::comptable
